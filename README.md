@@ -12,6 +12,7 @@ Simple CRUD with Lumen is an project service product where user can create produ
 You can try this REST API from this link 
 
 
+
 ## Prerequisites
 
 ```PHP ^7.2.5```
@@ -25,23 +26,29 @@ After you clone this repository to your laptop or computer,
 
 Please run this, to install all the dependencies as specified in the composer.lock file
 
-        ```composer install```
+        composer install
     
 and this command to regenerates the list of all classes that need to be included in the project
 
-        ```composer dump-autoload```
+        composer dump-autoload
 
 after that you need to create new file name **.env** and setup your **.env** like database name, database username and database password, 
 and create new database manually in your database. Don't forget to run this command to create table in your database after you create your database and setup your environment.
 
-```php artisan migrate```
+      php artisan migrate
 
 and the last command is this command to seeding database.
-```php artisan db:seed```
+
+      php artisan db:seed
 
 ## Routes List
 
-```localhost://api/v1/products``` to get all product list.
+Method GET    ```localhost://api/v1/product```       to get all product list.
+Method GET    ```localhost://api/v1/product/{id}```  to get product based on product ID.
+Method POST   ```localhost://api/v1/product```       to create product.
+Method PUT    ```localhost://api/v1/product/{id}```  to update product based on product ID.
+Method DELETE ```localhost://api/v1/products/{id}``` to delete product based on product ID.
+
 
 
 ## License

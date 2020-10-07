@@ -1,23 +1,48 @@
-# Lumen PHP Framework
+# Simple CRUD with Lumen
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
 [![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+Simple CRUD with Lumen is an project service product where user can create product with the product detail like name, price and description. User also can update product based on product ID, view product list, get specific product based on ID and also user can delete product based on product ID.
 
-## Official Documentation
+## Getting Started
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+You can try this REST API from this link 
 
-## Contributing
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Prerequisites
 
-## Security Vulnerabilities
+```PHP ^7.2.5```
+```Laravel/Lumen-framework 7.0```
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+
+## Installing
+
+Make sure you have been install Laravel/Lumen-framework before, and have required PHP version on your laptop or computer. 
+After you clone this repository to your laptop or computer, 
+
+Please run this, to install all the dependencies as specified in the composer.lock file
+
+        ```composer install```
+    
+and this command to regenerates the list of all classes that need to be included in the project
+
+        ```composer dump-autoload```
+
+after that you need to create new file name **.env** and setup your **.env** like database name, database username and database password, 
+and create new database manually in your database. Don't forget to run this command to create table in your database after you create your database and setup your environment.
+
+```php artisan migrate```
+
+and the last command is this command to seeding database.
+```php artisan db:seed```
+
+## Routes List
+
+```localhost://api/v1/products``` to get all product list.
+
 
 ## License
 

@@ -49,6 +49,10 @@ Method PUT    ```localhost://api/v1/product/{id}```  to update product based on 
 Method DELETE ```localhost://api/v1/products/{id}``` to delete product based on product ID.
 
 
+## API DOCUMENTATION
+
+[API DOCUMENTATION](https://documenter.getpostman.com/view/11108135/TVRj4nbN)
+
 
 ## License
 

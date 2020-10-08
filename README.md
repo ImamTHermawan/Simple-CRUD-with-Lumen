@@ -42,17 +42,17 @@ and the last command is this command to seeding database.
 
 ## Routes List
 
-* Method GET    ```localhost://api/v1/product```       to get all product list.
-* Method GET    ```localhost://api/v1/product/{id}```  to get product based on product ID.
-* Method POST   ```localhost://api/v1/product```       to create product.
-* Method PUT    ```localhost://api/v1/product/{id}```  to update product based on product ID.
-* Method DELETE ```localhost://api/v1/products/{id}``` to delete product based on product ID.
+* Method GET    ```/api/v1/product```       to get all product list.
+* Method GET    ```/api/v1/product/{id}```  to get product based on product ID.
+* Method POST   ```/api/v1/product```       to create product.
+* Method PUT    ```/api/v1/product/{id}```  to update product based on product ID.
+* Method DELETE ```/api/v1/products/{id}``` to delete product based on product ID.
 
 
 ## API DOCUMENTATION
 
-[LOCAL API DOCUMENTATION](https://documenter.getpostman.com/view/11108135/TVRj4nbN)
-[DEPLOY API DOCUMENTATION](https://documenter.getpostman.com/view/11108135/TVRj4nkA)
+* [LOCAL API DOCUMENTATION](https://documenter.getpostman.com/view/11108135/TVRj4nbN)
+* [DEPLOY API DOCUMENTATION](https://documenter.getpostman.com/view/11108135/TVRj4nkA)
 
 ## License
 

@@ -9,7 +9,7 @@ Simple CRUD with Lumen is an project service product where user can create produ
 
 ## Getting Started
 
-You can try this REST API from your localhost
+You can try this REST API from your localhost or with this link : [https://radiant-plateau-61127.herokuapp.com/](https://radiant-plateau-61127.herokuapp.com/)
 
 
 ## Prerequisites
@@ -42,17 +42,17 @@ and the last command is this command to seeding database.
 
 ## Routes List
 
-Method GET    ```localhost://api/v1/product```       to get all product list.
-Method GET    ```localhost://api/v1/product/{id}```  to get product based on product ID.
-Method POST   ```localhost://api/v1/product```       to create product.
-Method PUT    ```localhost://api/v1/product/{id}```  to update product based on product ID.
-Method DELETE ```localhost://api/v1/products/{id}``` to delete product based on product ID.
+* Method GET    ```localhost://api/v1/product```       to get all product list.
+* Method GET    ```localhost://api/v1/product/{id}```  to get product based on product ID.
+* Method POST   ```localhost://api/v1/product```       to create product.
+* Method PUT    ```localhost://api/v1/product/{id}```  to update product based on product ID.
+* Method DELETE ```localhost://api/v1/products/{id}``` to delete product based on product ID.
 
 
 ## API DOCUMENTATION
 
-[API DOCUMENTATION](https://documenter.getpostman.com/view/11108135/TVRj4nbN)
-
+[LOCAL API DOCUMENTATION](https://documenter.getpostman.com/view/11108135/TVRj4nbN)
+[DEPLOY API DOCUMENTATION](https://documenter.getpostman.com/view/11108135/TVRj4nkA)
 
 ## License
 

@@ -30,8 +30,7 @@ class ProductController extends Controller
    {
       $rules = [
          'name' => 'required|unique:products,name',
-         'price' => 'required',
-         'description' => 'required'
+         'price' => 'required'
       ];
 
       $validator = Validator::make($request->all(), $rules);
@@ -66,7 +65,7 @@ class ProductController extends Controller
          return response()->json($validator->errors(), 400);
       }
 
-      $data = $request->except('_token', 'method', 'id');
+      $data = $request->except('id');
 
       $product = $this->product->patch($data, $request->id);
 

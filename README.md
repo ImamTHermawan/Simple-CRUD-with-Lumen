@@ -9,8 +9,7 @@ Simple CRUD with Lumen is an project service product where user can create produ
 
 ## Getting Started
 
-You can try this REST API from this link 
-
+You can try this REST API from your localhost
 
 
 ## Prerequisites

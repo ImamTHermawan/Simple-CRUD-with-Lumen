@@ -46,7 +46,7 @@ and the last command is this command to seeding database.
 * Method GET    ```/api/v1/product/{id}```  to get product based on product ID.
 * Method POST   ```/api/v1/product```       to create product.
 * Method PUT    ```/api/v1/product/{id}```  to update product based on product ID.
-* Method DELETE ```/api/v1/products/{id}``` to delete product based on product ID.
+* Method DELETE ```/api/v1/product/{id}``` to delete product based on product ID.
 
 
 ## API DOCUMENTATION
